@@ -12,11 +12,19 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  padding-left: 5rem;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-header-image {
+  height: 40rem;
+  width: 40rem;
+  margin: 0 4rem;
+  border-radius: 5rem;
 }
 
 .App-link {
