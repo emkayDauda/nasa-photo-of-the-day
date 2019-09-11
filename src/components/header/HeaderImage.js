@@ -1,9 +1,9 @@
 import React from 'react';
 
-function HeaderImage() {
+function HeaderImage({src}) {
     return (
         <div>
-
+            <img className = "App-header-image" src={src} alt=""/>
         </div>
     )
 }
