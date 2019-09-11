@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "./App.css";
 
+import Nav from './components/Nav/Nav'
 import Header from './components/header/header'
 
 const headerApi = "https://lambda-github-api-server.herokuapp.com/";
@@ -31,7 +32,7 @@ function App() {
         Read through the instructions in the README.md file to build your NASA
         app! Have fun 🚀!
       </p> */}
-
+      <Nav/>
       <Header headerData = {headerState}/>
     </div>
   );
