@@ -5,7 +5,7 @@ import "./App.css";
 import Nav from './components/Nav/Nav'
 import Header from './components/header/header'
 
-const headerApi = "https://lambda-github-api-server.herokuapp.com/";
+const headerApi = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY";
 
 function App() {
 

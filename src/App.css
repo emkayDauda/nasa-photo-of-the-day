@@ -44,6 +44,13 @@
   color: #1c92b3;
   margin-left: 3rem;
   font-size: 2rem;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.App-link:hover{
+  color: silver;
+  transition: .2s;
 }
 
 @keyframes App-logo-spin {
