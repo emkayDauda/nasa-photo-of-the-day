@@ -1,9 +1,13 @@
 import React from 'react';
+import HeaderImage from './HeaderImage';
+import HeaderText from './HeaderText';
 
-function Header() {
+function Header({headerData}) {
+    
     return(
-        <div>
-
+        <div className="App-header">
+            <HeaderText props={headerData}/>
+            <HeaderImage src = {headerData.url} />
         </div>
     );
 }
