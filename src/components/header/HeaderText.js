@@ -3,7 +3,7 @@ import React from 'react';
 function HeaderText(props) {
     const {copyright, date, explanation, title} = props.props;
     return(
-        <div style={{"display":"flex", "flex-direction":"column-reverse", "padding-top":"5rem"}}>
+        <div style={{"display":"flex", "flexDirection":"column-reverse", "paddingTop":"5rem"}}>
             <p>{date}</p>
             <p>{title}</p>
             <p>{copyright}</p>
