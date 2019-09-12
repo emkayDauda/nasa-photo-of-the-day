@@ -34,6 +34,7 @@ function App() {
       const shortArray = [];
       console.log(response.data)
       const photosArray = response.data.photos;
+      shortArray.push(photosArray[0])
       var i = 0;
       for (i = 0; i < 10; i++) {
         shortArray.push(photosArray[Math.floor(Math.random()*photosArray.length)])
