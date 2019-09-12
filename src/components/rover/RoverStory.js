@@ -1,9 +1,13 @@
 import React from 'react';
 
-function RoverStory(){
+function RoverStory(props){
+   const {img_src, earth_date, rover} = props.story;
+   console.log(props);
    return (
-    <div>
-        
+    <div className="story">
+        <img alt = "Story" src={img_src}/>
+        <p>{earth_date}</p>
+        <p>{rover.name}</p>
     </div>
    )
 }
